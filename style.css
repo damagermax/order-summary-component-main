@@ -30,8 +30,6 @@ background-repeat: no-repeat;
 background-color: var(--Paleblue);
 min-height: 100vh;
 display: flex;
-flex-direction: column;
-gap: 5rem;
 justify-content: center;
 align-items: center;
 text-align: center;
@@ -46,7 +44,8 @@ article{
 
 }
 .card-image{
-    width:100%
+    width:100%;
+    background-repeat: repeat-x;
 }
 .card-content{
     padding: 1.3em 3em;
